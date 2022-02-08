@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello peter gym</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="styleshet">
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        font-family:'Baloo Bhaina 2',cursive;
+        margin:0px;
+        padding: 0px;
+        background: url('girl.jpg');
+    }
+    .left{
+  display:inline-block;
+   /*the boundary will be to the text */
+  /*border: 5px solid red; */
+  position:absolute ;
+  left: 60px;
+  top: 20px;
+
+  
+    }
+    .left img{
+        width: 140px;
+       
+      /*  invert function is used to cahnge the colour of image */
+
+
+    }
+    .left div{
+        line-height: 19px;
+        font-size : 26px ;
+        text-align-last: center;
+        
+    }
+    .mid{
+        display : block;
+      /*  border: 5px solid blue; */
+        width : 36%;
+       margin:20px auto;
+        
+        
+    }
+    .right{
+        position:absolute;
+        right : 34px;
+        top:20px;
+       /* border: 5px solid green; */
+        display:inline-block;
+       
+    }
+    .navbar{
+        display : inline-block;
+    }
+    .navbar li{
+        display : inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: solid rgb(163, 27, 27);
+        text-decoration: none;
+        padding: 34px 22px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+      
+    }
+    .btn,.button{
+        font-family:'Baloo Bhaina 2', cursive ;
+        margin: 0px 9px ;
+        padding : 3px 4px ;
+        border : 2px solid grey ;
+        font-size: 20px;
+        cursor : pointer ;
+    }
+    .btn:hover{
+        background-color: rgb(75, 67, 67);
+    }
+    .button:hover{
+        background-color: rgb(75, 67, 67);
+    }
+    .container{
+       /* border: 2px solid green; */
+        margin : 122px 92px;
+        padding : 2px 2px;
+        width : 33%;
+        border-radius:2px ;
+    }
+    .formg input{
+        text-align: center ;
+        display: block ;
+        width : 334px ;
+        padding: 2px;
+        border : solid 2px black;
+        margin : 3px auto ;
+        border-radius: 13px;
+        font-size: 25px;
+        font-family:'Baloo Bhaina 2', cursive ;
+
+    }
+    .container h1{
+      
+      font-size: 45px ;
+      text-align: center;
+    }
+
+    .btn1{
+        display : block;
+        width : 39% ;
+        margin: auto ;
+        font-size: 20px ;
+    }
+
+</style>
+<body>
+    <header class="header">
+         <!-- left box for logo -->
+        <div class="left">
+           <img src="logo.png" alt=" ">
+           <div>Peter Fitness</div>
+           
+           
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="button">email us</button>
+        </div>
+    </header>
+        <div class="container">
+            <h1>Finest Gym of Kolkata is ready to roar</h1>
+            <form action="something.php">
+                <div class="formg">
+                    <input type="text" name=" " placeholder="Enter your name">
+                </div>
+                <div class="formg">
+                    <input type="text" name=" " placeholder="Enter your age">
+                </div>
+                <div class="formg">
+                    <input type="text" name=" " placeholder="Enter your gender">
+                </div>
+                <div class="formg">
+                    <input type="text" name=" " placeholder="Enter your locality">
+                </div>
+                <button class="btn1">
+                    Submit
+                </button>
+            </form>
+        </div>
+    
+    
+    
+</body>
+</html>
